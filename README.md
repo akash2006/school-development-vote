@@ -1,2 +1,4 @@
-# p5.play-boilerplate
-Boiler plate for p5.play
+# School Development Vote
+#### Vote, Support and develop the school
+
+Recommended only for the students of Nava Nalanda Santiniketan

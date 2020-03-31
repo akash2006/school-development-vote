@@ -1,0 +1,49 @@
+<!DOCTYPE html><html>
+  <title>School Development Vote</title><head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="form.js"></script>
+    <script src="voter.js"></script>
+    <script src="vote.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+<script src="./p5.play.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyD9Bd8WmNgs2F_y4MV9BmZ-IMvrPJ6m9O0",
+    authDomain: "school-vote-91170.firebaseapp.com",
+    databaseURL: "https://school-vote-91170.firebaseio.com",
+    projectId: "school-vote-91170",
+    storageBucket: "school-vote-91170.appspot.com",
+    messagingSenderId: "790496430309",
+    appId: "1:790496430309:web:061f30ea1063ebef7a6c0c"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+
+  </head>
+    <body leftmargin=50px>
+      <script src="sketch.js"></script>
+      <!-- <div id="canvascontainer"></div> -->
+      <p>
+        <input id="nameInput" style = "position:absolute;left:50px;top:90px" placeholder = "Enter your name">
+        <input id="emailInput" style = "position:absolute;left:250px;top:90px" placeholder = "Email ID">
+      </p>
+      <p>
+        <input id="classInput" style = "position:absolute;left:50px;top:125px" placeholder = "Enter your class">
+        <input id="sectionInput" style = "position:absolute;left:250px;top:125px" placeholder = "Enter your section">
+        <input id="rollInput" style = "position:absolute;left:450px;top:125px" placeholder = "Enter your roll number">
+      </p>
+    </body>  
+</html>
